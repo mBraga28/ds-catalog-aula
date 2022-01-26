@@ -54,3 +54,14 @@ INSERT INTO tb_product_category (product_id, category_id) VALUES (22, 3);
 INSERT INTO tb_product_category (product_id, category_id) VALUES (23, 3);
 INSERT INTO tb_product_category (product_id, category_id) VALUES (24, 3);
 INSERT INTO tb_product_category (product_id, category_id) VALUES (25, 3);
+
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Mario Justos', '23654983467', 5000.0, TIMESTAMP WITH TIME ZONE '1994-02-17T04:12:48Z', 1)
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Ana Isabel Viana', '11388745691', 4780.0, TIMESTAMP WITH TIME ZONE '1973-09-01T06:25:56Z', 3)
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Bruna Santos', '07795120479', 8150.0, TIMESTAMP WITH TIME ZONE '1998-11-09T12:00:45Z', 0)
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Gabriel Ferreira', '31499989112', 2500.0, TIMESTAMP WITH TIME ZONE '1986-03-15T19:36:11Z', 2)
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Julio Nobrega', '44400179821', 3000.0, TIMESTAMP WITH TIME ZONE '1964-01-31T01:00:59Z', 4)
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Daniel Costa', '60413738650', 10000.0, TIMESTAMP WITH TIME ZONE '2000-04-03T15:49:02Z', 0)
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('David Pontes', '11277700182', 7450.0, TIMESTAMP WITH TIME ZONE '1995-10-14T13:22:04Z', 0)
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Giuliana Menezes', '18106642501', 1500.0, TIMESTAMP WITH TIME ZONE '1989-12-22T22:10:10Z', 1)
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Joana Salles', '20915009013', 2000.0, TIMESTAMP WITH TIME ZONE '1945-08-29T08:08:18Z', 6)
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Thiago Freitas', '10064931133', 12600.0, TIMESTAMP WITH TIME ZONE '1976-07-28T12:07:28Z', 3)
