@@ -3,18 +3,28 @@ package com.devsuperior.dscatalog.entities;
 import java.io.Serializable;
 import java.util.Objects;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "tb_role")
 public class Role implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private String authroity;
+	private String authority;
 	
 	public Role() {
 	}
 
-	public Role(Long id, String authroity) {
+	public Role(Long id, String authority) {
 		this.id = id;
-		this.authroity = authroity;
+		this.authority = authority;
 	}
 
 	public Long getId() {
@@ -25,12 +35,12 @@ public class Role implements Serializable {
 		this.id = id;
 	}
 
-	public String getAuthroity() {
-		return authroity;
+	public String getAuthority() {
+		return authority;
 	}
 
-	public void setAuthroity(String authroity) {
-		this.authroity = authroity;
+	public void setAuthority(String authority) {
+		this.authority = authority;
 	}
 
 	@Override
